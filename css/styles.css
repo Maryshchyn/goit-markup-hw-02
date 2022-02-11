@@ -1,0 +1,178 @@
+
+
+
+:root{
+    /* Основні шрифти */
+     --main-font: "Roboto", sans-serif;
+     --secondary-font: "Raleway", sans-serif;
+     /*Світла тема тексту*/
+     --accent-txt: #2196F3;
+     --primary-light-txt: #212121;
+     --secondary-light-txt: #757575;
+     /*Темна тема тексту*/
+     --primary-dark-txt: #FFFFFF;
+     --secondary-dark-txt: rgba(255, 255, 255, 0.6);
+     /*Світла тема фону*/
+     --primary-light-bg: #E5E5E5;
+     --secondary-light-bg: #F5F4FA;
+     /*Темна тема фону*/
+     --primary-dark-bd: #2F303A;
+
+} 
+
+body{
+     font-family: var(--main-font);
+     font-weight: 270;
+     Font-size: 14px;
+     Line-height: 1.67;
+     letter-spacing: 0.03em;
+     color: #757575;
+}
+
+.list{
+     list-style: none;
+}
+.link{
+     text-decoration: none;
+}
+
+/* header */
+.header-footer-logo{
+     font-family: "Raleway", sans-serif;
+     font-weight: 600;
+     Font-size: 26px;
+     Line-height: 1.19;
+     Letter-spacing: 3%;
+     color: var(--primary-light-txt);
+}
+.web{
+     color: var(--accent-txt);
+}
+.nav-link{
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      Line-height: 1.14;
+      Letter-spacing: 2%;
+      color: var(--primary-light-txt);
+}
+.nav-link:hover,
+.nav-link:focus{
+     color: var(--accent-txt);
+}
+.contact-mail{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      Font-size: 14px;
+      Line-height: 1.14;
+      Letter-spacing: 2%;
+      color: var(--accent-txt);
+}
+.contact-phone{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      Font-size: 14px;
+      Line-height: 1.14;
+      Letter-spacing: 2%;
+      color: var(--secondary-light-txt);
+}
+.hero-title{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      Font-size: 44px;
+      Line-height: 1.36;
+      Letter-spacing: 6%;
+      color: var(--primary-dark-txt);
+}
+.hero{
+      background-color: var(--primary-dark-bd);
+}
+.hero-btn{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.87;
+      letter-spacing: 0.06em;
+      color: var(--primary-dark-txt);
+      background-color: var(--accent-txt);
+      cursor: pointer;
+}
+.advice-subtitle{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      color: var(--primary-light-txt);
+}
+.advice-descr{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: var(--secondary-light-txt);
+}
+.work-title{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;
+      color: var(--primary-light-txt);
+}
+.work-image{
+      width: 370px;
+      height: 294px;
+      left: 215px;
+      top: 1061px;
+}
+.about-us-image{
+      width: 270px;
+      height: 260px;
+      left: 815px;
+      top: 1635px;
+}
+.about-us-name{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color: var(--primary-light-txt);
+}
+.about-us-position{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color: var(--secondary-light-txt);
+}
+.footer-link{
+      Font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: var(--primary-dark-txt);
+}
+.footer-mail{
+      Font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone{
+      Font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+}
+.footer{
+     background-color: var(--primary-dark-bd);
+}

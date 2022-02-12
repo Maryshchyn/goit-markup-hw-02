@@ -16,7 +16,7 @@
      --primary-light-bg: #E5E5E5;
      --secondary-light-bg: #F5F4FA;
      /*Темна тема фону*/
-     --primary-dark-bd: #2F303A;
+     --primary-dark-bd: #2F303A;  
 
 } 
 
@@ -175,4 +175,56 @@ body{
 }
 .footer{
      background-color: var(--primary-dark-bd);
+}
+.contact-mail-portfolio{
+       font-family: "Roboto", sans-serif;
+       font-style: 400;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.02em;
+       color: var(--secondary-light-txt);
+
+}
+.buttons-btn{
+       font-family: "Roboto", sans-serif;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.62;
+       letter-spacing: 0.03em;
+       color: var(--primary-light-txt);
+       background-color: --secondary-light-bg;
+       cursor: pointer;
+}
+.buttons-bton{
+       font-family: "Roboto", sans-serif;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.62;
+       letter-spacing: 0.03em;
+       color: var(--primary-dark-txt);
+       background-color: var(--accent-txt);
+       cursor: pointer;
+}
+.projekts-image{
+       width: 370px;
+       height: 294px;
+       left: 615px;
+       top: 262px;
+}
+.projekts-subtitle{
+       font-family: "Roboto", sans-serif;
+       font-weight: 700;
+       font-size: 18px;
+       line-height: 2;
+       letter-spacing: 0.06em;
+        color: var(--primary-light-txt);
+}
+.projekts-desc{
+       font-family: "Roboto", sans-serif;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.87;
+       letter-spacing: 0.03em;
+       color: var(--secondary-light-txt);
 }

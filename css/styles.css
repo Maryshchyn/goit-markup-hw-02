@@ -73,7 +73,7 @@ body{
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
-      letter-spacing: 2%;
+      letter-spacing: 0.02em;
       color: var(--secondary-light-txt);
 }
 .contact-phone:hover,
@@ -122,12 +122,6 @@ body{
       letter-spacing: 0.03em;
       color: var(--primary-light-txt);
 }
-.work-image{
-      
-}
-.about-us-image{
-      
-}
 .about-us-name{
       font-weight: 500;
       font-size: 16px;
@@ -140,6 +134,9 @@ body{
       line-height: 1.19;
       letter-spacing: 0.03em;
       color: var(--secondary-light-txt);
+}
+.footer-all{
+      font-style: normal;
 }
 .footer-link{
       font-size: 14px;
@@ -203,9 +200,6 @@ body{
 .buttons-btn:focus{
       color: var(--primary-dark-txt);
       background-color: var(--accent-txt);
-}
-.projekts-image{
-      
 }
 .projekts-subtitle{
        font-weight: 700;

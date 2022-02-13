@@ -13,8 +13,7 @@
      --primary-dark-txt: #FFFFFF;
      --secondary-dark-txt: rgba(255, 255, 255, 0.6);
      /*Світла тема фону*/
-     --primary-light-bg: #E5E5E5;
-     --secondary-light-bg: #F5F4FA;
+     --primary-light-bg: #F5F4FA;
      /*Темна тема фону*/
      --primary-dark-bd: #2F303A;  
 
@@ -26,7 +25,7 @@ body{
      Font-size: 14px;
      Line-height: 1.67;
      letter-spacing: 0.03em;
-     color: #757575;
+     color: var(--secondary-light-txt);
 }
 
 .list{
@@ -37,23 +36,22 @@ body{
 }
 
 /* header */
-.header-footer-logo{
+.header-logo{
      font-family: "Raleway", sans-serif;
      font-weight: 600;
      Font-size: 26px;
-     Line-height: 1.19;
-     Letter-spacing: 3%;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
      color: var(--primary-light-txt);
 }
 .web{
      color: var(--accent-txt);
 }
 .nav-link{
-      font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-size: 14px;
-      Line-height: 1.14;
-      Letter-spacing: 2%;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
       color: var(--primary-light-txt);
 }
 .nav-link:hover,
@@ -61,34 +59,40 @@ body{
      color: var(--accent-txt);
 }
 .contact-mail{
-      Font-family: "Roboto", sans-serif;
       font-weight: 500;
-      Font-size: 14px;
-      Line-height: 1.14;
-      Letter-spacing: 2%;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: var(--secondary-light-txt);
+}
+.contact-mail:hover,
+.contact-mail:focus{
       color: var(--accent-txt);
 }
 .contact-phone{
-      Font-family: "Roboto", sans-serif;
       font-weight: 500;
-      Font-size: 14px;
-      Line-height: 1.14;
-      Letter-spacing: 2%;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 2%;
       color: var(--secondary-light-txt);
 }
+.contact-phone:hover,
+.contact-phone:focus{
+      color: var(--accent-txt);
+}
 .hero-title{
-      Font-family: "Roboto", sans-serif;
       font-weight: 900;
-      Font-size: 44px;
-      Line-height: 1.36;
-      Letter-spacing: 6%;
+      font-size: 44px;
+      line-height: 1.36;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
       color: var(--primary-dark-txt);
 }
 .hero{
       background-color: var(--primary-dark-bd);
 }
 .hero-btn{
-      Font-family: "Roboto", sans-serif;
+      font-family: inherit;
       font-weight: 700;
       font-size: 16px;
       line-height: 1.87;
@@ -98,23 +102,20 @@ body{
       cursor: pointer;
 }
 .advice-subtitle{
-      Font-family: "Roboto", sans-serif;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.03em;
+      text-transform: uppercase;
       color: var(--primary-light-txt);
 }
 .advice-descr{
-      Font-family: "Roboto", sans-serif;
-      font-weight: 400;
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
       color: var(--secondary-light-txt);
 }
 .work-title{
-      Font-family: "Roboto", sans-serif;
       font-weight: 700;
       font-size: 36px;
       line-height: 1.16;
@@ -122,19 +123,12 @@ body{
       color: var(--primary-light-txt);
 }
 .work-image{
-      width: 370px;
-      height: 294px;
-      left: 215px;
-      top: 1061px;
+      
 }
 .about-us-image{
-      width: 270px;
-      height: 260px;
-      left: 815px;
-      top: 1635px;
+      
 }
 .about-us-name{
-      Font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.19;
@@ -142,87 +136,86 @@ body{
       color: var(--primary-light-txt);
 }
 .about-us-position{
-      Font-family: "Roboto", sans-serif;
-      font-weight: 400;
       font-size: 16px;
       line-height: 1.19;
       letter-spacing: 0.03em;
       color: var(--secondary-light-txt);
 }
 .footer-link{
-      Font-family: "Roboto", sans-serif;
-      font-weight: 400;
       font-size: 14px;
       line-height: 1.71;
       letter-spacing: 0.03em;
       color: var(--primary-dark-txt);
+      cursor: default;
+}
+.footer-all{
+      font-style: normal;
 }
 .footer-mail{
-      Font-family: "Roboto", sans-serif;
-      font-weight: normal;
       font-size: 14px;
       line-height: 24px;
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
 }
 .footer-phone{
-      Font-family: "Roboto", sans-serif;
-      font-weight: normal;
       font-size: 14px;
       line-height: 24px;
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
 }
+.footer-logo{
+       font-family: "Raleway", sans-serif;
+       font-weight: 600;
+       font-size: 26px;
+       line-height: 1.19;
+       letter-spacing: 0.03em;
+       color: var(--primary-dark-txt);
+}
 .footer{
      background-color: var(--primary-dark-bd);
 }
 .contact-mail-portfolio{
-       font-family: "Roboto", sans-serif;
        font-style: 400;
        font-weight: 500;
        font-size: 14px;
        line-height: 1.14;
        letter-spacing: 0.02em;
        color: var(--secondary-light-txt);
-
+}
+.contact-phone-portfolio{
+       font-style: 400;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.02em;
+       color: var(--secondary-light-txt);
 }
 .buttons-btn{
-       font-family: "Roboto", sans-serif;
+       font-family: inherit;
        font-weight: 500;
        font-size: 16px;
        line-height: 1.62;
        letter-spacing: 0.03em;
        color: var(--primary-light-txt);
-       background-color: --secondary-light-bg;
+       background-color: var(--secondary-light-bg);
        cursor: pointer;
 }
-.buttons-bton{
-       font-family: "Roboto", sans-serif;
-       font-weight: 500;
-       font-size: 16px;
-       line-height: 1.62;
-       letter-spacing: 0.03em;
-       color: var(--primary-dark-txt);
-       background-color: var(--accent-txt);
-       cursor: pointer;
+.buttons-btn:hover,
+.buttons-btn:focus{
+      color: var(--primary-dark-txt);
+      background-color: var(--accent-txt);
 }
 .projekts-image{
-       width: 370px;
-       height: 294px;
-       left: 615px;
-       top: 262px;
+      
 }
 .projekts-subtitle{
-       font-family: "Roboto", sans-serif;
        font-weight: 700;
        font-size: 18px;
        line-height: 2;
        letter-spacing: 0.06em;
-        color: var(--primary-light-txt);
+       color: var(--primary-light-txt);
 }
 .projekts-desc{
-       font-family: "Roboto", sans-serif;
-       font-weight: 400;
        font-size: 16px;
        line-height: 1.87;
        letter-spacing: 0.03em;
